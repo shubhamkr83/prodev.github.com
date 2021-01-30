@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>S.K Store | Ecommerce Website</title>
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" href="link rel=" preconnect href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
@@ -28,7 +28,7 @@
                         <li><a href="Account.html">Account</a></li>
                     </ul>
                 </nav>
-                <a href="Cart.html"><img src="images/cart.png"  width="30px" height="30px"></a>
+                <a href="Cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
                 <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
             </div>
             <div class="row">
@@ -316,8 +316,8 @@
                     <h3>Download Our App</h3>
                     <p>Download App for Android and ios mobile phone</p>
                     <div class="app-logo">
-                      <a href=""><img src="images/logo2.png"></a>
-                      <a href=""><img src="images/logo4.png"></a>
+                        <a href=""><img src="images/logo2.png"></a>
+                        <a href=""><img src="images/logo4.png"></a>
                     </div>
                 </div>
                 <div class="footer-col-2">
@@ -347,25 +347,22 @@
             <p class="copyright">Copyright 2020 - Shubham Kumar</p>
         </div>
     </div>
-<!------------------ js for toggle menu ---------------->
-<script>
-    var MenuItems= document.getElementById("MenuItems");
+    <!------------------ js for toggle menu ---------------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
 
-    MenuItems.style.maxHeight="0px";
+        MenuItems.style.maxHeight = "0px";
 
-    function menutoggle(){
+        function menutoggle() {
 
-        if(MenuItems.style.maxHeight=="0px")
-
-        {
-            MenuItems.style.maxHeight="200px";
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
         }
-        else
-        {
-            MenuItems.style.maxHeight="0px";
-        }
-    }
-</script>
+    </script>
 
 </body>
 
